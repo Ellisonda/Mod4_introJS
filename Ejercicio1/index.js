@@ -24,10 +24,11 @@ document.getElementById("greeting").textContent=saludo('Lolo');
 
 // valor(num);
 
-let nume=3;
+let nume=5;
 
 function operation(){
-    if (nume%2 === 0){
+    const result= nume%2;
+    if (result === 0){
         console.log(`Number ${nume} is odd`)
     }else {
         console.log(`Number ${nume} is not odd`)
