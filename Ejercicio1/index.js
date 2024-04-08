@@ -11,11 +11,26 @@ function saludo (name) {
 }
 document.getElementById("greeting").textContent=saludo('Lolo');
 */
+ //EJERCICIO 2. Crea una funcion capaz de comprobar si un numero es par o impar
+// let num= 5;
+// let result = num %2; //Si es par da 0. En este caso, con 5 devuelve 1, por lo q no es par
+// function valor (){
+//     if (result === 0){
+//         console.log(`Number ${num} is odd`)
+//     }else {
+//         console.log(`Number ${num} is not odd`)
+//     };
+// };
 
-let num= 5;
-let result = num %2; //Si es par da 0. En este caso, con 5 devuelve 1, por lo q no es par
-if (result === 0){
-    console.log(`Number ${num} is odd`)
-}else {
-    console.log(`Number ${num} is not odd`)
+// valor(num);
+
+let nume=3;
+
+function operation(){
+    if (nume%2 === 0){
+        console.log(`Number ${nume} is odd`)
+    }else {
+        console.log(`Number ${nume} is not odd`)
+    };
 };
+operation(nume);
